@@ -6,6 +6,6 @@ gulp.task('default', function () {
   return browserify('./source/app.js')
          .transform(babelify, {presets: "react"})
          .bundle()
-         .pipe(source('snapterest.js'))
+         .pipe(source('./snapterest.js'))
          .pipe(gulp.dest('./build/'));
 });

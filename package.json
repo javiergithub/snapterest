@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "react": "^0.14.5",
-    "react-dom": "^0.14.5"
+    "react-dom": "^0.14.5",
+    "snapkite-stream-client": "^1.0.3"
   }
 }
